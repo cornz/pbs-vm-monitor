@@ -60,7 +60,7 @@ The script loads `.env` automatically from the repository root. You can also set
 | --- | --- | --- | --- |
 | `PBS_BASE_URL` | No | `https://127.0.0.1:8007` | Base URL of your Proxmox Backup Server |
 | `PBS_DATASTORE` | No | `offsite` | PBS datastore name used to build the snapshots API path |
-| `PBS_API_TOKEN` | Yes, unless using `PBS_TOKEN_ID`/`PBS_TOKEN_SECRET` or `PBS_AUTHORIZATION` | none | Token value after `PBSAPIToken=`, for example `monitoring@pbs!kuma:secret` |
+| `PBS_API_TOKEN` | Yes | none | Token value after `PBSAPIToken=`, for example `monitoring@pbs!kuma:secret` |
 | `PBS_TOKEN_ID` | No | none | Token id such as `monitoring@pbs!kuma` |
 | `PBS_TOKEN_SECRET` | No | none | Token secret paired with `PBS_TOKEN_ID` |
 | `PBS_AUTHORIZATION` | No | none | Full Authorization header value, with or without the `PBSAPIToken=` prefix |
